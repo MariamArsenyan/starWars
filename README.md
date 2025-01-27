@@ -50,7 +50,7 @@ npm run dev
 4. Abre la app en tu navegador
 Visita en tu navegador web:
 
-arduino
+bash
 Copiar
 Editar
 http://localhost:3000
