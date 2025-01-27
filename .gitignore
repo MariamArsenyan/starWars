@@ -24,3 +24,11 @@ dist-ssr
 *.sw?
 
 *storybook.log
+# Node modules
+node_modules/
+
+# Archivos de configuración de paquetes
+package-lock.json
+eslint.config.js
+postcss.config.cjs
+tailwind.config.js
