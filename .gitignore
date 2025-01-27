@@ -26,9 +26,16 @@ dist-ssr
 *storybook.log
 # Node modules
 node_modules/
+eslint.config.js
 
 # Archivos de configuración de paquetes
 package-lock.json
-eslint.config.js
-postcss.config.cjs
+npm-debug.log
+
+# Archivos de entorno
+.env
+
+# Configuración de TypeScript
+tsconfig.json
+tsconfig.tsbuildinfo
 tailwind.config.js
