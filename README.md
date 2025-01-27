@@ -1,20 +1,20 @@
-# ⭐ Star Wars
+# # ⭐ Star Wars
 
-¡Bienvenido a **Star Wars**!  
-Este es un proyecto para explorar el universo de Star Wars, donde puedes ver naves espaciales, películas, series y más
-
----
-
-## 📋 ¿Qué hace esta app?  
-
-- **Ver naves espaciales**: Lista de naves con sus detalles
-- **Explorar películas**: Con imágenes y episodios  
-- **Series destacadas**: Series relacionadas con Star Wars  
-- **Iniciar sesión**: Crea una cuenta o inicia sesión para una experiencia personalizada 
+Welcome to **Star Wars**!  
+This is a project to explore the Star Wars universe, where you can see spaceships, movies, series, and more.
 
 ---
 
-## 🛠 Tecnologías principales  
+## 📋 What does this app do?  
+
+- **View spaceships**: A list of ships with their details
+- **Explore movies**: With images and episodes  
+- **Featured series**: Star Wars-related series  
+- **Log in**: Create an account or log in for a personalized experience 
+
+---
+
+## 🛠 Main technologies  
 
 - **React**  
 - **React Router**  
@@ -22,53 +22,45 @@ Este es un proyecto para explorar el universo de Star Wars, donde puedes ver nav
 - **Firebase**  
 - **SWAPI API**  
 
----
 
-## Cómo instalarlo
+### How to Contribute
 
-1. **Clona el repositorio**  
-   Primero, copia el proyecto en tu computadora ejecutando:
+We welcome any contributions you can make to improve our Star Wars website! If you wish to contribute, please follow these steps:
 
-   ```bash
-   git clone https://github.com/MariamArsenyan/starWars.git
-   cd starwars-2
-Instala las dependencias
-Corre el siguiente comando:
+## Facility
 
-bash
-Copiar
-Editar
-npm install
-Inicia el servidor
-Usa el siguiente comando para arrancar la app:
+1. Clone this repository to your local machine:
 
-bash
-Copiar
-Editar
-npm run dev
-Abre la app en tu navegador
-Visita en tu navegador web:
+    ```bash
+    git clone https://github.com/MariamArsenyan/starWars.git
+    ```
 
-bash
-Copiar
-Editar
-http://localhost:3000
-🤝 Contribuye al proyecto
-Si quieres ayudar a mejorar este proyecto, sigue estos pasos:
+2. Navigate to the project directory:
 
-Haz un fork del repositorio.
+    ```bash
+    cd starwars-2
+    ```
 
-Crea una nueva rama para tu cambio:
+3. Install the project dependencies:
 
-bash
-Copiar
-Editar
-git checkout -b "nombre-de-la-rama"
-Haz tus cambios y súbelos:
+    ```bash
+    npm install
+    ```
 
-bash
-Copiar
-Editar
-git add .
-git commit -m "Descripción de los cambios"
-git push origin "nombre-de-la-rama"
+## Use
+
+1. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+2. Open your browser and visit `http://localhost:3000` to see the Star Wars in action.
+
+## Contributions
+Thank you for visiting  Egypt website! 
+Happy browsing! 🌍✨
+![Home Page](/src/assets/screen/homePage.png)
+![Starships](/src/assets/screen/starship.png)
+![Login Page](/src/assets/screen/login.png)
+![Naves Page](/src/assets/screen/naves.png)
