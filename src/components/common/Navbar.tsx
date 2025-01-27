@@ -1,7 +1,9 @@
+import React from 'react'; 
 import logo from '../../assets/logo/logo.png';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { Icons } from '../../Icons';
+
 
 
 export const Navbar = () => {
