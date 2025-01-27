@@ -26,6 +26,12 @@ Este es un proyecto para explorar el universo de Star Wars, donde puedes ver nav
 
 ## Cómo instalarlo
 
+1. **Clona el repositorio**  
+   Primero, copia el proyecto en tu computadora ejecutando:
+
+   ```bash
+   git clone https://github.com/MariamArsenyan/starWars.git
+   cd starwars-2
 Instala las dependencias
 Corre el siguiente comando:
 
@@ -65,5 +71,4 @@ Copiar
 Editar
 git add .
 git commit -m "Descripción de los cambios"
-git push origin "nombre-de-la-rama"
-Abre un pull request en GitHub.
+git push origin "nombre-de-la-rama" 
