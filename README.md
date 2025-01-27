@@ -58,7 +58,7 @@ We welcome any contributions you can make to improve our Star Wars website! If y
 2. Open your browser and visit `http://localhost:3000` to see the Star Wars in action.
 
 ## Contributions
-Thank you for visiting  Egypt website! 
+Thank you for visiting Star Wars website! 
 Happy browsing! 🌍✨
 ![Home Page](/src/assets/screen/homePage.png)
 ![Starships](/src/assets/screen/starship.png)
