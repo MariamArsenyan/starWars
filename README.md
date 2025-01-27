@@ -32,43 +32,22 @@ Este es un proyecto para explorar el universo de Star Wars, donde puedes ver nav
    ```bash
    git clone https://github.com/MariamArsenyan/starWars.git
    cd starwars-2
-Instala las dependencias
-Corre el siguiente comando:
+2. **Instala las dependencias** 
+  Corre el siguiente comando:
+  ```bash
+  npm install
+3. **Inicia el servidor**
+  ```bash 
+  npm run dev
 
-bash
-Copiar
-Editar
-npm install
-Inicia el servidor
-Usa el siguiente comando para arrancar la app:
-
-bash
-Copiar
-Editar
-npm run dev
-Abre la app en tu navegador
-Visita en tu navegador web:
-
-bash
-Copiar
-Editar
-http://localhost:3000
-🤝 Contribuye al proyecto
+## 🤝 Contribuye al proyecto
 Si quieres ayudar a mejorar este proyecto, sigue estos pasos:
 
 Haz un fork del repositorio.
-
 Crea una nueva rama para tu cambio:
-
-bash
-Copiar
-Editar
-git checkout -b "nombre-de-la-rama"
+```bash
+git checkout -b ""
 Haz tus cambios y súbelos:
-
-bash
-Copiar
-Editar
 git add .
-git commit -m "Descripción de los cambios"
-git push origin "nombre-de-la-rama" 
+git commit -m ""
+git push origin "" 
