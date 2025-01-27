@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
+# ⭐ Star Wars
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a **Star Wars**!  
+Este es un proyecto para explorar el universo de Star Wars, donde puedes ver naves espaciales, películas, series y más
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 ¿Qué hace esta app?  
 
-## Expanding the ESLint configuration
+- **Ver naves espaciales**: Lista de naves con sus detalles
+- **Explorar películas**: Con imágenes y episodios  
+- **Series destacadas**: Series relacionadas con Star Wars  
+- **Iniciar sesión**: Crea una cuenta o inicia sesión para una experiencia personalizada 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Tecnologías principales  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React**  
+- **React Router**  
+- **Tailwind CSS**  
+- **Firebase**  
+- **SWAPI API**  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🖥️ Cómo instalarlo  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 1. Clona el repositorio  
+
+Primero, copia el proyecto en tu computadora:  
+
+git clone https://github.com/MariamArsenyan/starWars.git
+cd starwars-2
+2. Instala las dependencias
+
+npm install
+3. Inicia el servidor
+Usa el siguiente comando para arrancar la app:
+npm run dev
+4. Abre la app en tu navegador
+Visita en tu navegador web:
+
+http://localhost:3000
+
+🤝 Contribuye al proyecto
+Si quieres ayudar a mejorar este proyecto, sigue estos pasos:
+
+Haz un fork del repositorio.
+Crea una nueva rama para tu cambio:
+git checkout -b ""
+Haz tus cambios y súbelos:
+git add .
+git commit -m ""
+git push origin ""
+Abre un pull request en GitHub 

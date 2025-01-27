@@ -9,6 +9,9 @@ module.exports = {
       margin: {
         '43p': '43%',
       },
+      fontFamily: {
+        'exo-2': ['"Exo 2"', 'serif'],
+    },
     },
   },
   plugins: [],

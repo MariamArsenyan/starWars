@@ -1,10 +1,13 @@
+export const apiStarWars = async () => {
+    const response = await fetch("https://swapi.py4e.com/api/starships", { headers: { 'Accept': 'application/json' } });
 
-export const fetchStarships = async () => {
-    const response = await fetch('https://swapi.dev/api/starships/');
     if (!response.ok) {
-      throw new Error('Failed to fetch starships');
+        throw new Error("API error " + response.status);
     }
+
     const data = await response.json();
-    return data.results;
-  };
-  
+    console.log("data: ", data);
+    return data.results;    
+};
+
+ 
