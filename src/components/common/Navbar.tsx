@@ -55,14 +55,14 @@ export const Navbar = () => {
       </div>
       <nav className="flex font-exo-2 justify-center border-t border-b border-gray-700 gap-16 mt-4">
         <Link
-          to="/home"
+          to="/"
           className="text-gray-400 uppercase text-base pt-2 pb-2 hover:border-b-2 hover:border-blue-500 transition-all"
         >
           Home
         </Link>
 
         <Link
-          to="/"
+          to="/starship"
           className="text-gray-400 uppercase text-base pt-2 pb-2 hover:border-b-2 hover:border-blue-500 transition-all"
         >
           Starships
