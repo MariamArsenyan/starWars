@@ -1,4 +1,4 @@
-# # ⭐ Star Wars
+# ⭐ Star Wars
 
 Welcome to **Star Wars**!  
 This is a project to explore the Star Wars universe, where you can see spaceships, movies, series, and more.
@@ -58,8 +58,11 @@ We welcome any contributions you can make to improve our Star Wars website! If y
 2. Open your browser and visit `http://localhost:3000` to see the Star Wars in action.
 
 ## Contributions
+
 Thank you for visiting Star Wars website! 
+
 Happy browsing! 🌍✨
+
 ![Home Page](/src/assets/screen/homePage.png)
 ![Starships](/src/assets/screen/starship.png)
 ![Login Page](/src/assets/screen/login.png)
