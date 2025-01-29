@@ -1,85 +1,46 @@
-import React from 'react';
-import { TiSocialTwitter } from 'react-icons/ti';
-import { TiSocialYoutube } from 'react-icons/ti';
-import { TiSocialFacebook } from 'react-icons/ti';
-import { TiSocialInstagram } from 'react-icons/ti';
+import React from "react";
+import { TiSocialTwitter, TiSocialYoutube, TiSocialFacebook, TiSocialInstagram } from "react-icons/ti";
 
+const socialLinks = [
+  { icon: TiSocialFacebook, href: "#" },
+  { icon: TiSocialInstagram, href: "#" },
+  { icon: TiSocialTwitter, href: "#" },
+  { icon: TiSocialYoutube, href: "#" },
+];
 
-export const Footer: React.FC = () => {
-  return (
-    <footer className="bg-slate-700 text-white py-8">
-     
-      <div className="flex flex-col items-center">
-        
-        <div className="icons font-exo-2 flex absolute  mt-[-20px] gap-2 text-[30px] text-gray-500">
-        <a
-          href="#"
-          className="hover:text-white transition-all hover:border-b hover:border-[#fade4b]"
-        >
-          <TiSocialFacebook className="hover:text-[#fade4b]" />
-        </a>
-        <a
-          href="#"
-          className="hover:text-white transition-all hover:border-b hover:border-[#fade4b]"
-        >
-          <TiSocialInstagram className="hover:text-[#fade4b]" />
-        </a>
-        <a
-          href="#"
-          className="hover:text-white transition-all hover:border-b hover:border-[#fade4b]"
-        >
-          <TiSocialTwitter className="hover:text-[#fade4b]" />
-        </a>
-        <a
-          href="#"
-          className="hover:text-white transition-all hover:border-b hover:border-[#fade4b]"
-        >
-          <TiSocialYoutube className="hover:text-[#fade4b]" />
-        </a>
+const footerLinks = [
+  "Terms of Use",
+  "Privacy Policy",
+  "Children's Online Privacy Policy",
+  "Your US State Privacy Rights",
+  "Disney Store",
+  "Star Wars Helpdesk",
+  "Interest-Based Ads",
+];
+
+export const Footer: React.FC = () => (
+  <footer className="bg-slate-700 text-white py-8">
+    <div className="flex flex-col items-center">
+      <div className="flex gap-2 text-[30px] text-gray-500 mt-[-20px]">
+        {socialLinks.map(({ icon: Icon, href }, idx) => (
+          <a key={idx} href={href} className="hover:text-[#fade4b] transition-all">
+            <Icon />
+          </a>
+        ))}
       </div>
-
-        <ul className="flex flex-wrap justify-center gap-4 text-center m-6">
-          <li>
+      <ul className="flex flex-wrap justify-center gap-4 text-center m-6">
+        {footerLinks.map((link, idx) => (
+          <li key={idx}>
             <a href="#" className="hover:text-gray-400 transition-colors">
-              Terms of Use
+              {link}
             </a>
           </li>
-          <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
-              Children's Online Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
-              Your US State Privacy Rights
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
-              Disney Store
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
-              Star Wars Helpdesk
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:text-gray-400 transition-colors">
-              Interest-Based Ads
-            </a>
-          </li>
-        </ul>
-        <div className="text-center text-sm text-gray-500">
-          <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
-          <p>Do Not Sell or Share My Personal Information</p>
-        </div>
+        ))}
+      </ul>
+      <div className="text-center text-sm text-gray-500">
+        <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
+        <p>Do Not Sell or Share My Personal Information</p>
       </div>
-    </footer>
-  );
-};
+    </div>
+  </footer>
+);

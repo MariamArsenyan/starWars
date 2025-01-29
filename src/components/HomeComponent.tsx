@@ -1,5 +1,5 @@
-import { NewsCard } from './NewsCard';
-import { SeriesCard } from './SeriesCard';
+import { NewsCard } from './cards/NewsCard';
+import { SeriesCard } from './cards/SeriesCard';
 import { Footer } from './common/Footer';
 
 export const HomeComponent = () => {

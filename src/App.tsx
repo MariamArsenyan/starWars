@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { StarshipList } from './components/StarshipList';
-import { StarshipDetail } from './components/StarshipDetail';
+import { StarshipList } from './components/starship/StarshipList';
+import { StarshipDetail } from './components/starship/StarshipDetail';
 import { Home } from './page/Home';
 import { Login } from './page/Login';
 import { SignUp } from './page/SignUp';

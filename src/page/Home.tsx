@@ -1,4 +1,4 @@
-import React from 'react'; 
+
 import { HomeComponent } from '../components/HomeComponent';
 import { Navbar } from '../components/common/Navbar';
 

@@ -9,7 +9,7 @@ type FilmsProps = {
   films: Film[];
 };
 
-export const Films: React.FC<FilmsProps> = ({ films }) => (
+export const FilmsCard: React.FC<FilmsProps> = ({ films }) => (
   <div className="flex gap-4 p-1 mt-5 rounded shadow-md border-2 border-gray-800 hover:border-[#fade4b] transition-all bg-transparent">
     {films.map((film, index) => (
       <div key={index} className="text-center flex flex-col items-center bg-[#1d1e1f] rounded-b-md">

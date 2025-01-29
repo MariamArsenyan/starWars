@@ -9,7 +9,7 @@ type PilotsListProps = {
   pilots: Pilot[];
 };
 
-export const Pilots: React.FC<PilotsListProps> = ({ pilots }) => {
+export const PilotsCard: React.FC<PilotsListProps> = ({ pilots }) => {
   if (pilots.length === 0) {
     return <p className="text-white">This starship has no pilots.</p>;
   }

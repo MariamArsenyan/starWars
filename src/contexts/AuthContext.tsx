@@ -1,20 +1,12 @@
 import React, { useContext, useEffect, ReactNode, useState } from 'react';
-import { 
-  createUserWithEmailAndPassword, 
-  signInWithEmailAndPassword, 
-  onAuthStateChanged, 
-  signOut, 
-  User 
-} from "firebase/auth";
+import { createUserWithEmailAndPassword,signInWithEmailAndPassword, onAuthStateChanged,signOut, User } from "firebase/auth";
 import { auth } from "../firebase";
-
 interface AuthContextType {
   currentUser: User | null;
   signup: (email: string, password: string) => Promise<void>;
   login: (email: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
 }
-
 const AuthContext = React.createContext<AuthContextType | undefined>(undefined);
 
 export function useAuth() {
@@ -60,7 +52,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   
     return unsubscribe;
   }, []);
-  
 
   const value: AuthContextType = {
     currentUser,
@@ -68,7 +59,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     login,
     logout,
   };
-
   return (
     <AuthContext.Provider value={value}>
       {!loading && children}

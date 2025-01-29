@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { useAuth } from "../contexts/AuthContext.tsx";
 import { Link, useNavigate } from "react-router";
-import logo1 from '../assets/logo/log1.png';
+import logo1 from '../assets/logo/log1.png'
 
 
 export const Login: React.FC = () => {
@@ -11,8 +11,7 @@ export const Login: React.FC = () => {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-
-
+  
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
   
@@ -36,8 +35,6 @@ export const Login: React.FC = () => {
     }
     
   }
-  
-
   return (
     <div className="flex flex-col items-start  justify-center min-h-screen bg-[url('https://images.alphacoders.com/697/697322.jpg')] object-contain">
        <button

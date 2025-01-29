@@ -1,7 +1,7 @@
-import ep8 from '../assets/news/ep8.jpeg'; 
-import ep7 from '../assets/news/ep7.jpeg';
-import epp from '../assets/news/eep.jpeg';
-import epp1 from '../assets/news/epp1.jpeg'
+import ep8 from '../../assets/news/ep8.jpeg'; 
+import ep7 from '../../assets/news/ep7.jpeg';
+import epp from '../../assets/news/epp1.jpeg'
+import epp1 from '../../assets/news/epp1.jpeg';
 
 interface News {
   id: number;
@@ -75,7 +75,6 @@ export const NewsCard = () => {
         </div>
       ))}
     </div>
-    </>
-   
+    </> 
   );
 }
